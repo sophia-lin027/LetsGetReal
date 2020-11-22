@@ -31,10 +31,10 @@ public class RealNumber{
   *the sum of this and the other
   */
   public RealNumber add(RealNumber other){
-     //other can be ANY RealNumber, including a RationalNumber
-     //or other subclasses of RealNumber (that aren't written yet)
-     RealNumber x = new RealNumber(value + other.getValue());
-     return x;
+    //other can be ANY RealNumber, including a RationalNumber
+    //or other subclasses of RealNumber (that aren't written yet)
+    RealNumber x = new RealNumber(value + other.getValue());
+    return x;
   }
 
   /*
@@ -42,7 +42,8 @@ public class RealNumber{
   *the product of this and the other
   */
   public RealNumber multiply(RealNumber other){
-        return null;
+    RealNumber x = new RealNumber(value * other.getValue());
+    return x;
   }
 
   /*
