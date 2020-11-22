@@ -6,5 +6,6 @@ public class Tester {
     System.out.println(r1.getValue());
     System.out.println(r1.equals(r3));
     System.out.println(r1.equals(r2));
+    System.out.println(r1.add(r3));
   }
 }
