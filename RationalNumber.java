@@ -114,6 +114,10 @@ public class RationalNumber extends RealNumber{
   *Return a new RationalNumber that this minus the other
   */
   public RationalNumber subtract(RationalNumber other){
-    return null;
+    int num1 = numerator * other.getDenominator();
+    int num2 = other.getNumerator() * denominator;
+    int difference = num1 - num2;
+    int common_den = denominator * other.getDenominator();
+    return new RationalNumber(difference, common_den);
   }
 }
