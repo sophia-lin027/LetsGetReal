@@ -13,5 +13,9 @@ public class Tester {
     System.out.println(r1.divide(r2));
     System.out.println(r1.divide(r3));
     System.out.println(r1.subtract(r3));
+    System.out.println();
+
+    RationalNumber ra1 = new RationalNumber(3, 5);
+    System.out.println(ra1.getValue());
   }
 }
