@@ -19,8 +19,6 @@ public class Tester {
     RationalNumber ra2 = new RationalNumber(3, 5);
     RationalNumber ra3 = new RationalNumber(5, 3);
     RationalNumber ra4 = new RationalNumber(6, 3);
-    RealNumber r5 = new RealNumber(210);
-    RealNumber r6 = new RealNumber(45);
     System.out.println("value of ra1: " + ra1.getValue());
     System.out.println("numerator of ra1: " + ra1.getNumerator());
     System.out.println("denominator of ra1: " + ra1.getDenominator());
@@ -29,5 +27,8 @@ public class Tester {
     System.out.println("ra1 = ra3: " + ra1.equals(ra3));
     System.out.println("ra1 * ra3: " + ra1.multiply(ra3));
     System.out.println("ra1 * ra4: " + ra1.multiply(ra4));
+    System.out.println("ra1 / ra4: " + ra1.divide(ra4));
+    System.out.println("ra1 + ra4: " + ra1.add(ra4));
+    System.out.println("ra1 - ra4: " + ra1.subtract(ra4));
   }
 }
