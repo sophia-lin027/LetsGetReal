@@ -12,5 +12,6 @@ public class Tester {
     System.out.println(r1.multiply(r4));
     System.out.println(r1.divide(r2));
     System.out.println(r1.divide(r3));
+    System.out.println(r1.subtract(r3));
   }
 }
