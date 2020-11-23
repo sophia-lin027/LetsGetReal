@@ -16,8 +16,13 @@ public class Tester {
     System.out.println();
 
     RationalNumber ra1 = new RationalNumber(3, 5);
+    RationalNumber ra2 = new RationalNumber(3, 5);
+    RationalNumber ra3 = new RationalNumber(5, 3);
     System.out.println("value of ra1: " + ra1.getValue());
     System.out.println("numerator of ra1: " + ra1.getNumerator());
     System.out.println("denominator of ra1: " + ra1.getDenominator());
+    System.out.println("reciprocal of ra1: " + ra1.reciprocal());
+    System.out.println("ra1 = ra2: " + ra1.equals(ra2));
+    System.out.println("ra1 = ra3: " + ra1.equals(ra3));
   }
 }
